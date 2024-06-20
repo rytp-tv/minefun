@@ -68,7 +68,7 @@ App.prototype._toggle = function() {
 		//this._dom.hashes.disabled = false;
 		//this._dom.algo.disabled = false;
 		clearInterval(this._interval);
-		Result = "";
+		//Result = "";
 	} else {
 		this._work = this._stats.currentWork = 0;
 		this._alphabet = this._data.alphabet;
